@@ -25,7 +25,7 @@ public class MongoConnect {
 			}
 
 		} catch (UnknownHostException e) {
-			// TODO Auto-generated catch block
+			System.out.println("Exception is " + e.getMessage());
 			e.printStackTrace();
 		}
 	}
